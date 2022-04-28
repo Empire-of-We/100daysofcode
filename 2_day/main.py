@@ -10,8 +10,8 @@ b = int(two_digit_number[1])
 print(a + b)
 
 #challenge #2 - Mathmatical Operations - BMI Calculator
-height = input("enter your height in ft: ")
-weight = input("enter your weight in lbs: ")
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
 print(int(int(weight)/float(height)**2.0))
 print(float(int(weight)/float(height)**2.0))
 print(round(int(weight)/float(height)**2.0,2))
